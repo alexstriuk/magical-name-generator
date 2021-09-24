@@ -36,7 +36,7 @@ def display_name():
     text.grid(column=0, row=5)
     text.insert(tk.END, show_up)
 
-# Labels
+# Labels.
 label_head = tk.Label(text=" Hello, Wanderer! \n Choose your name wisely. ", font=("The New Roman", 25))
 label_head.grid()
 
@@ -46,7 +46,7 @@ label_enter.grid(column=0, row=1)
 label_output = tk.Label(text=display_name())
 label_output.grid()
 
-# Button
+# Button.
 button_submit = tk.Button(fg="white", text="Generate more!", bg="green", command=display_name)
 button_submit.grid(column=0, row=10)
 
